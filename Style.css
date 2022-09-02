@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(32, 32, 32);
+}
+
+.container header {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 1rem;
+}
+
+.container header .textRight h4 {
+    color: #fff;
+}
+
+.container header .againBtn button {
+    padding: 15px 35px;
+    font-size: 1.5rem;
+    color: rgb(31, 31, 31);
+    border-radius: 10px;
+}
+
+
+.container header .againBtn button:hover {
+    transition: all .5s linear;
+    box-shadow: 0px .4rem .1rem .2rem rgba(255, 255, 255, .3);
+}
+
+.container .heading {
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.container .heading h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.container .Score_board {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .Score_board .board {
+    width: 200px;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 3rem;
+    z-index: 1;
+}
+
+.container .Score_board .line {
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    background-color: #fff;
+}
+
+.bottomSection {
+    width: 90%;
+    margin: auto;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottomSection .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3rem;
+}
+
+.bottomSection .left .guessInput input {
+    width: 15rem;
+    height: 6rem;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.bottomSection .left .checkBtn button {
+    padding: 1.5rem 1.6rem;
+    font-size: 1.5rem;
+}
+
+.bottomSection .right{
+    color: #fff;
+}
+
+.bottomSection .right .outputSection{
+    font-size: 1.2rem;
+}
+
+.bottomSection .right .ScoreOutput{
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+}
+
+.bottomSection .right .outputBottom{
+    /* margin-top: 3rem; */
+    padding-top: 5rem;
+}
+
+.bottomSection .right .outputBottom .ScoreOutput span{
+    font-size: 1.2rem;
+}
+
+.bottomSection .right .outputBottom .HighScoreOutput{
+    font-size: 1.2rem;
+}
+
+.bottomSection .right{
+    position: relative;
+    top: 1rem;
+}
