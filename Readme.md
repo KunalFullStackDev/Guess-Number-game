@@ -1,6 +1,6 @@
 # Guess Number Game
 - Guess number game developed using JavaScript for Beginner's
-- Link to play-free: 
+- Link to play-free: https://number-guess-bykunal.netlify.app/
 
 # Index
 
