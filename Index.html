@@ -11,7 +11,7 @@
 
 <body>
 
-    <div class="container">
+    <div class="container" id="container">
         <header>
             <div class="againBtn">
                 <button id="btn_Again">Again!</button>
@@ -24,14 +24,14 @@
             <h1>Guess the Number !</h1>
         </div>
         <div class="Score_board">
-            <div class="board">20</div>
+            <div class="board">?</div>
             <div class="line"></div>
         </div>
 
         <div class="bottomSection">
             <div class="left">
                 <div class="guessInput">
-                    <input type="number">
+                    <input type="number" class="input">
                 </div>
                 <div class="checkBtn">
                     <button id="btn_check">Check</button>
@@ -39,14 +39,14 @@
             </div>
             <div class="right">
                 <div class="outputSection">
-                    Correct number!
+                    <p class="message">Start guessing...</p>
                 </div>
                 <div class="outputBottom">
                     <div class="ScoreOutput">
-                        Score: <span id="score_here">15</span>
+                       <p class="message_score">💯 Score: <span id="score_here">20</span></p>
                     </div>
                     <div class="HighScoreOutput">
-                        Highscore: <span id="Highscore_here">17</span>
+                        <p class="message_Hscore">🏅 Highscore: <span id="Highscore_here">0</span></p>
                     </div>
                 </div>
             </div>

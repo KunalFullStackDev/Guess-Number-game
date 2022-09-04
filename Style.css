@@ -58,7 +58,7 @@
 }
 
 .container .Score_board .board {
-    width: 200px;
+    width: 250px;
     height: 100px;
     background-color: #fff;
     display: flex;
@@ -82,7 +82,7 @@
     height: 50%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .bottomSection .left{
@@ -115,7 +115,7 @@ input[type=number]::-webkit-outer-spin-button {
     color: #fff;
 }
 
-.bottomSection .right .outputSection{
+.bottomSection .right .message{
     font-size: 1.2rem;
 }
 
