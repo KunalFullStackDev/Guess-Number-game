@@ -21,14 +21,14 @@
  - This game can not install or run on your machine
  - This game is hosted online above is the link 
  - Steps
-    1. You have to download the .zip file or clone the git repository to your machine
-    2. How to download 👉️: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
-    3. Download vs code 👉️: https://code.visualstudio.com/
-    4. After downloading vs code you have to download the live-server extension
-    5. After completely clone the repo than open the folder in the vs code
-    6. Open the html file and click on the go-live (which is to the bottom-right of the vs code)
-    7. Here your game will start to run successfully
-    8. The download process is tough but I also know that the person who is here is on the journey of development
+    - You have to download the .zip file or clone the git repository to your machine
+    - How to download 👉️: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+    - Download vs code 👉️: https://code.visualstudio.com/
+    - After downloading vs code you have to download the live-server extension
+    - After completely clone the repo than open the folder in the vs code
+    - Open the html file and click on the go-live (which is to the bottom-right of the vs code)
+    - Here your game will start to run successfully
+    - The download process is tough but I also know that the person who is here is on the journey of development
 
 # How to play instruction 🎮️?
 
