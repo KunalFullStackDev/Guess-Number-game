@@ -23,7 +23,7 @@
  - Steps
     1. You have to download the .zip file or clone the git repository to your machine
     2. How to download 👉️: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
-    3. Download vs code 👉️: https://code.visualstudio.com/
+    3. Download VS code 👉️: https://code.visualstudio.com/
     4. After downloading vs code you have to download the live-server extension
     5. After completely clone the repo then open the folder in the vs code
     6. Open the html file and click on the go-live (which is to the bottom-right of the vs code)
