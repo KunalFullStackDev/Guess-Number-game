@@ -17,12 +17,10 @@
 
  # How to run the game 😮?
 
- - If you came across this readme file. Yay! then 💯 it is Bound be that you are facing some issues 😮‍💨 that (How to install or how to run this game)
+ - If you came across this readme file. Yay! then  definately you are facing some issues 😮‍💨 that (How to install or how to run this game)
  - This game can not install or run on your machine
  - This game is hosted online above is the link 
  - Steps
- 
-    #prabir kumar
     
     - You have to download the .zip file or clone the git repository to your machine
     - How to download 👉️: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
