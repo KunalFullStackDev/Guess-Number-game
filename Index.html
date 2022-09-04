@@ -14,7 +14,7 @@
     <div class="container" id="container">
         <header>
             <div class="againBtn">
-                <button id="btn_Again">Again!</button>
+                <button class="btn" id="btn_Again">Again!</button>
             </div>
             <div class="textRight">
                 <h4> (Between 1 and 20) </h4>
@@ -34,7 +34,7 @@
                     <input type="number" class="input">
                 </div>
                 <div class="checkBtn">
-                    <button id="btn_check">Check</button>
+                    <button class="btn" id="btn_check">Check</button>
                 </div>
             </div>
             <div class="right">
@@ -43,7 +43,7 @@
                 </div>
                 <div class="outputBottom">
                     <div class="ScoreOutput">
-                       <p class="message_score">💯 Score: <span id="score_here">20</span></p>
+                        <p class="message_score">💯 Score: <span id="score_here">20</span></p>
                     </div>
                     <div class="HighScoreOutput">
                         <p class="message_Hscore">🏅 Highscore: <span id="Highscore_here">0</span></p>
@@ -53,7 +53,18 @@
         </div>
     </div>
 
+    <footer class="myFooter">
+        <div class="footerdiv">
+            <span class="heart">❤️</span> Developed by Kunal Lade
+        <a href="https://github.com/KunalFullStackDev/Guess-Number-game" target="_blank">
+            <ion-icon name="logo-github" class="gitIcon"></ion-icon> <span class="gitSpan">Github</span>
+        </a>
+        </div>
+    </footer>
+
     <script src="/Index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
