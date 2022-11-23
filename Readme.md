@@ -1,4 +1,7 @@
 # Guess Number Game
+
+![C1apture](https://user-images.githubusercontent.com/86625941/203562589-44137d2e-e27f-41af-8d89-ee12a81aff88.PNG)
+
 - Guess number game developed using JavaScript for Beginner's
 - Link to play-free: https://number-guess-bykunal.netlify.app/
 
